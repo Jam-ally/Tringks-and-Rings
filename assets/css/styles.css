@@ -1,8 +1,37 @@
 /* Style sheet containing CSS for the Tringks and Rings webpage */
 
+/* Font Style  */
+
+.david-libre-regular {
+  font-family: "David Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.david-libre-medium {
+  font-family: "David Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.david-libre-bold {
+  font-family: "David Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Styles */
+
 header {
     background-color: lightcyan;
-    height: 200px;
+    height: 150px;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 main{
@@ -15,21 +44,28 @@ footer {
     height: 100px;
 }
 
-.page-icon {
-    display: flex;
-    justify-content: end;
-    right: 5%;
-    top: 2px;
-    height: fit-content;
-    width: fit-content;
-}
 
-.logo{
+
+#logo{
     display: flex;
+    justify-content: flex-start;
+    position:fixed;
+    flex-basis: 200px;
     padding-left: 10px;
     padding-top: 20px;
     width: 200px;
-    height: 200px;
-    
-    background-color: lightslategray;
+    height: 150px;
+    /* background-color: lightslategray; */
+    color:blueviolet;
+ 
+
 }
+
+.page-icon {
+    
+    position: absolute;
+    left: 90%;
+    top: 10px;
+
+}
+
