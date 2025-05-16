@@ -1,0 +1,35 @@
+/* Style sheet containing CSS for the Tringks and Rings webpage */
+
+header {
+    background-color: lightcyan;
+    height: 200px;
+}
+
+main{
+    background-color: #fafafa;
+    height: 400px;
+}
+
+footer {
+    background-color: lightseagreen;
+    height: 100px;
+}
+
+.page-icon {
+    display: flex;
+    justify-content: end;
+    right: 5%;
+    top: 2px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.logo{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+    
+    background-color: lightslategray;
+}
