@@ -2,6 +2,13 @@
 
 /* Font Style  */
 
+.archivo-narrow- bold {
+  font-family: "Archivo Narrow", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .david-libre-regular {
   font-family: "David Libre", serif;
   font-weight: 400;
@@ -20,7 +27,16 @@
   font-style: normal;
 }
 
+
+
 /* Styles */
+
+
+
+h1, h2, h3, p {
+  font-family: "Archivo Narrow", serif;
+  text-transform: uppercase;
+}
 
 header {
     background-color: lightcyan;
@@ -32,6 +48,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 
 main{
@@ -52,11 +69,13 @@ footer {
     position:fixed;
     flex-basis: 200px;
     padding-left: 10px;
-    padding-top: 20px;
-    width: 200px;
+    padding-top: 10px;
+   
     height: 150px;
     /* background-color: lightslategray; */
     color:blueviolet;
+    text-size-adjust: 110%;
+    font-weight: 700;
  
 
 }
