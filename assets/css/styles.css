@@ -31,6 +31,11 @@
 
 /* Styles */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
 h1, h2, h3, p {
@@ -40,8 +45,8 @@ h1, h2, h3, p {
 
 header {
     background-color: lightcyan;
-    height: 150px;
-    padding: 0 1rem;
+    height: 50px;
+    padding: 0 .5rem;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -66,12 +71,13 @@ footer {
 #logo{
     display: flex;
     justify-content: flex-start;
-    position:fixed;
-    flex-basis: 200px;
-    padding-left: 10px;
+    /* position:fixed; */
+    flex-basis: 300px;
+    padding-left: 5px;
     padding-top: 10px;
+    flex-grow: 1;
    
-    height: 150px;
+    height: fit-content;
     /* background-color: lightslategray; */
     color:blueviolet;
     text-size-adjust: 110%;
