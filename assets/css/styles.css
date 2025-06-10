@@ -51,6 +51,21 @@
 
 }
 
+.container, 
+.row {
+  border: 2px solid black;
+}
+
+.col-12{
+  border: 2px white solid;
+  background-color: lightgray;
+}
+
+.col-6{ 
+  border: 2px white solid;
+  background-color: azure;
+}
+
 h1, h2, h3, p {
   font-family: var(--secondary-font);
   text-transform: uppercase;
