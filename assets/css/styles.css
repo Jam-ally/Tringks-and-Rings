@@ -40,6 +40,7 @@
 }
 
 :root{
+  --primary-font: "Archivo Narrow", sans-serif;
   --secondary-font: "David Libre", serif;
   --primary-color: lightcyan;
   --secondary-color: #591680;
@@ -51,8 +52,12 @@
 }
 
 h1, h2, h3, p {
-  font-family: "Archivo Narrow", serif;
+  font-family: var(--secondary-font);
   text-transform: uppercase;
+}
+
+p {
+  font-family: var(--secondary-font);
 }
 
 #navbar {
@@ -83,7 +88,6 @@ footer {
 }
 
 
-
 #logo{
     
     /* position:fixed; */
@@ -98,8 +102,6 @@ footer {
     text-size-adjust: 110%;
     font-weight: 700;
     font-weight: bold;
- 
-
 }
 
 /* .page-icon {
