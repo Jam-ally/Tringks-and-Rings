@@ -72,11 +72,20 @@
 
 h1, h2, h3, p {
   font-family: var(--secondary-font);
+  color: var(--secondary-color);
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 300%;
+  line-height: 120%;
+  font-weight: 900;
+}
+
 p {
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 /* Navigation bar */
@@ -113,9 +122,12 @@ p {
 /* Main */
 main{
     background-color: #fafafa;
-    height: 400px;
+
 }
 
+#product-cards{
+  margin-bottom: 5px;
+}
 /* Footer */
 
 footer {
@@ -152,6 +164,20 @@ footer>section{
     font-weight: bold;
 }
 
+.social-links {
+  margin-right: 2px;
+  color: var(--secondary-color);
+}
+
+.social-links > a {
+  margin-right: 20px;
+  
+  color: var(--secondary-color);
+}
+
+#contact.social-links {
+  size-adjust: 200%;
+}
 /* .page-icon {
     
     position: absolute;
@@ -160,3 +186,11 @@ footer>section{
 
 } */
 
+.product-card {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 556px) {
+
+  
+}
