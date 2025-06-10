@@ -85,8 +85,7 @@ footer {
 
 
 #logo{
-    display: flex;
-    justify-content: flex-start;
+    
     /* position:fixed; */
     flex-basis: 300px;
     
@@ -98,6 +97,7 @@ footer {
     color: var(--secondary-color);
     text-size-adjust: 110%;
     font-weight: 700;
+    font-weight: bold;
  
 
 }
