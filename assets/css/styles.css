@@ -48,8 +48,8 @@
   --highlight-color: #8067d6; 
   --alt-color: #b1b4fc; 
   --primary-footer-color: #000000;
+  --subheading-color: #161c80;
   
-
 }
 
 .section {
@@ -71,7 +71,7 @@
   background-color: azure;
 } */
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   font-family: var(--secondary-font);
   color: var(--secondary-color);
   text-transform: uppercase;
@@ -262,10 +262,6 @@ border: 10px solid black;
 
 } */
 
-.contact-box {
-  width: 50%;
-  border: 2px solid #000000;
-}
 
 #about-us-background {
   background-image: url(../images/gallery-pictures/dwayne-joe-man-hands-with-ring-unsplash.jpg);
@@ -285,19 +281,58 @@ border: 10px solid black;
 } */
 
 #about-us {
-  /* margin-top: 10px; */
+  
   min-height: 40vh;
+  top: -5%;
 }
 
-#about-us-text {
-  margin-top: 40vh;
+.about-us-header {
+  position: relative;
+  top: -5vh;
+  background-color:  #F6D5AE; 
+}
+
+#about-us-header-text {
+  margin-left: 5%;
 }
 
 #contact-us {
   min-height: 40vh 
 }
 
+#contact-us-main h3 {
+  color: var(--subheading-color);
+}
 
+.contact-us-background {
+  background-image: url(../images/tringks-and-rings-logo-transparent.png) ;
+  background-size: contain;
+  
+}
+
+.contact-us-full-detail {
+  display: none;
+  /* position:absolute; */
+}
+
+.dropdown-custom:hover  #contact-us-header-text  {
+  background-color: red;
+}
+
+.dropdown-custom:hover .contact-us-full-detail  {
+  display: block;
+}
+
+#contact-us button {
+  position: relative;
+  top: -5vh;
+  left: 50%;
+  
+}
+
+/* .contact-us-main::checkmark .contact-us-full-detail {
+  display:block
+} */
 
 /*--- Gallery page Styles --- */
 
