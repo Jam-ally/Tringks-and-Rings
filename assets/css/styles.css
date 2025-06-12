@@ -156,6 +156,18 @@ main{
 }
 
 
+/* Product Section */
+
+.product-list {
+  border: 2px solid black;
+
+}
+
+.product-list .card .card-img-top1 {
+  border: 2px solid red;
+  flex-grow: calc();
+  
+}
 
 
 /* .page-icon {
@@ -179,6 +191,8 @@ footer>section{
   margin-bottom: 10px;
 }
 
+
+/* Social Links */
 
 .social-links {
   margin-right: 2px;
@@ -208,7 +222,7 @@ footer>section{
 }
 
 
-/* About Us  */
+/* --- About us page styles --- */
 
 
 #about-us{
@@ -247,14 +261,24 @@ border: 10px solid black;
 
 
 
-/* Gallery Styles */
+/*--- Gallery page Styles --- */
 
+#gallery-wall {
+ 
+display: flex;
+flex-wrap: wrap;
+
+
+}
 #gallery-wall img {
   width: 50px;
   height: 50px;
 }
 
+/* Media Querries */
+
 @media screen and (max-width: 556px) {
+
 
   
 }
