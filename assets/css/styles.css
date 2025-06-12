@@ -138,6 +138,8 @@ main{
   display: inline-block;
 }
 
+
+
 #logo{
     
     /* position:fixed; */
@@ -187,6 +189,11 @@ main{
   --bs-list-group-border-width: 0 ; 
 }
 
+.product-card {
+  margin-bottom: 10px;
+}
+
+
 /* .page-icon {
     
     position: absolute;
@@ -208,6 +215,14 @@ footer>section{
   margin-bottom: 10px;
 }
 
+.footer-title {
+  width: fit-content;
+  align-self: center;
+}
+#footer-logo{
+  width: 200px;
+  
+}
 
 /* Social Links */
 
@@ -227,6 +242,8 @@ footer>section{
 }
 #address {
   color: var(--primary-footer-color); 
+  width: fit-content;
+  text-align: left;
 }
 #contact #copyright {
   color: var(--primary-footer-color);
@@ -234,28 +251,30 @@ footer>section{
 #contact p {
   color:var(--primary-footer-color);
 }
-.product-card {
-  margin-bottom: 10px;
-}
 
 
 /* --- About us page styles --- */
 
 
-#about-us{
+/* #about-us{
 display: flex;
 border: 10px solid black;
 
-}
+} */
 
 .contact-box {
   width: 50%;
   border: 2px solid #000000;
 }
 
+#about-us-background {
+  background-image: url(../images/gallery-pictures/dwayne-joe-man-hands-with-ring-unsplash.jpg);
+  background-size: contain;
+  min-height: 50vh;
+}
 
 
-#about-us{
+/* #about-us{
     background-image: url(../images/jay-soundo-WadmDYk2Gvo-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: right;
@@ -263,13 +282,15 @@ border: 10px solid black;
     justify-content:baseline;
      
 
-}
-
+} */
 
 #about-us {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   min-height: 40vh;
+}
 
+#about-us-text {
+  margin-top: 40vh;
 }
 
 #contact-us {
@@ -288,13 +309,26 @@ flex-wrap: wrap;
 
 }
 #gallery-wall img {
-  width: 50px;
-  height: 50px;
+  width: 350px;
+  height: fit-content;
 }
 
 /* Media Querries */
 
 @media screen and (max-width: 556px) {
+
+  .footer-text {
+    justify-content: flex-end;
+
+  }
+
+    .footer-title {
+   justify-content: center;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
 
 
   
