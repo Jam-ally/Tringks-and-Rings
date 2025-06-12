@@ -160,15 +160,32 @@ main{
 
 .product-list {
   border: 2px solid black;
+  font-family: var(--primary-font);
 
 }
 
-.product-list .card .card-img-top1 {
+/* .product-list .card .card-img-top1 {
   border: 2px solid red;
   flex-grow: calc();
   
+} */
+
+.product-price {
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
+.alternative-materials-description {
+  color: #5d5c5e;
+}
+
+.hidden {
+  visibility: collapse;
+}
+
+.product-text {
+  --bs-list-group-border-width: 0 ; 
+}
 
 /* .page-icon {
     
