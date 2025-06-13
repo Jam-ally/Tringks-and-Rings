@@ -348,6 +348,20 @@ flex-wrap: wrap;
   height: fit-content;
 }
 
+/* Order form styles */
+
+
+.choose-item {
+  display: inline-block;
+  align-content:flex-end;
+}
+
+.quantity  {
+  width: 10px;
+  align-content: center;
+  justify-content: flex-end;
+}
+
 /* Media Querries */
 
 @media screen and (max-width: 556px) {

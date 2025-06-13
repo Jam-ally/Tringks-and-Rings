@@ -80,30 +80,238 @@
 
     <main>
 
-        <section id="order-form-section">
-            <form name="order-form" action="post">
+        <section class="container section" id="order-form-section">
+            
+              <p> To place your order please fill out the form below. Delivey 2-5 working days. Express Options available. </p>
+            <div class="row justify-content-center mt-4">
+
+                    <!-- Order Form -->
+            <form name="order-form" action="success.html" method="get">
 
 
-                <p> To place your order please fill out the form below. Delivey 2-5 working days. Express Options available. </p>
+                 <div class="row form-inputs" >
 
-                <div class="form-inputs" >
+                    <h3 class="display-6">Fill me in:</h3>
 
-                    <label for="name" >Name</label>
-                     <input type="text" name="name" id="name"> 
+                    <!-- Name input -->
+                    <div class="col-12 col-lg-6 mb-3">
+                      <label for="name" class="form-label" >Name</label>
+                       <input class="form-control" type="text" name="name" id="name" required> 
+                    </div>
+                    <!-- Email input -->
+                    <div class="col-12 col-lg-6 mb-3">
+                      <label for="email" class="form-label" >Email</label>
+                       <input class="form-control" type="email" name="email" id="email" required> 
+                    </div>   
+                    <!-- phone number input -->
+                    <div class="col-12 col-lg-6 mb-3">
+                      <label for="phone" class="form-label" >Phone Number</label>
+                       <input class="form-control" type="number" name="name" id="phone" required> 
+                    </div>
+                    <br>
+                    <br>
+                    <!-- Address input -->
+                    <address>
+                    <div class="col-12 col-lg-6 mb-3">
+                      <label for="address1" class="form-label" >Address Line 1</label>
+                       <input class="form-control" type="text" name="address1" id="address" required> 
+                    </div>
+                    <div class="col-12 col-lg-6 mb-3">
+                      <label for="address2" class="form-label" >Address Line 2</label>
+                       <input class="form-control" type="text" name="address2" id="address"required> 
+                    </div>
+                    <div class="col-12 col-lg-6 mb-3">
+                      <label for="address3" class="form-label" >Address Line 3</label>
+                       <input class="form-control" type="text" name="address3" id="address" required> 
 
-```
+                       <div class="col-12 col-lg-6 mb-3">
+                      <label for="postcode" class="form-label" >Post Code</label>
+                       <input class="form-control" type="text" name="postcode" id="postcode" required>
+                    </div>
+                    </div>
+                    </address>
 
+                    <h3 class="display-6">Pick your item</h3>
+                    <!-- product Selection 1 -->
+                     <div>
+                    <div class="col-10 col-lg-6 mb-3 choose-item" id="item-1-selection">
+
+
+                      <label for="product-item1" class="form-label" >Item </label>
+                       <select lass="form-select" type="text" name="name" id="product-item1">
+                            <option selected value="">Select</option>
+                            <option value="Silver-Wave-Ring">Silver Wave Ring</option>
+                            <option value="Orange-Topaz-Ring">Orange Topaz Ring</option>
+                            <option value="Obsidian Carbon Ring">Obsidian Carbon Ring</option>
+                            <option value="Wicked Fish Keychain">Wicked Fish Keychain</option>
+                            <option value="Butterly free desires Broach">Butterly free desires Broach</option>
+                            <option value="Cry your heart out Ring">Cry your heart out Ring</option>
+                            <option value="Meridian Waves Opal Ring">Meridian Waves Opal Ring</option>
+                            <option value="His & Her Rings">His & Her Rings</option>
+                            <option value="The World is yours Ring">The World is yours Ring</option>
+                            <option value="Opal & Rose Gold Godess Band">Opal & Rose Gold Godess Band</option>
+                            <option value="Rock Sea Bead Gem Bracelet">Rock Sea Bead Gem Bracelet</option>
+                            <option value="Studs">Studs</option>
+
+                            </select>
+                     </div>
+
+                        <!-- Product Quantity 1 -->
+                    <div class="col-1 col-lg-1 mb-3 choose-item" id="item-1-quantity">
+                        <label for="product-item-1-quantity" class="form-label Quantity" >Quantity </label>
+                       <input class="form-control" type="number" name="product-item-1-quantity" id="product-item-1-quantity" required>    
+                    </div>
+                    </div>
+                    <!-- line break -->
+                    <hr>
+                                        <!-- product Selection 2 -->
+                     <div>
+                    <div class="col-10 col-lg-6 mb-3 choose-item" id="item-1-selection">
+
+
+                      <label for="product-item1" class="form-label" >Item </label>
+                       <select lass="form-select" type="text" name="name" id="product-item1">
+                            <option value="" selected>Select</option>
+                            <option value="Silver-Wave-Ring">Silver Wave Ring</option>
+                            <option value="Orange-Topaz-Ring">Orange Topaz Ring</option>
+                            <option value="Obsidian Carbon Ring">Obsidian Carbon Ring</option>
+                            <option value="Wicked Fish Keychain">Wicked Fish Keychain</option>
+                            <option value="Butterly free desires Broach">Butterly free desires Broach</option>
+                            <option value="Cry your heart out Ring">Cry your heart out Ring</option>
+                            <option value="Meridian Waves Opal Ring">Meridian Waves Opal Ring</option>
+                            <option value="His & Her Rings">His & Her Rings</option>
+                            <option value="The World is yours Ring">The World is yours Ring</option>
+                            <option value="Opal & Rose Gold Godess Band">Opal & Rose Gold Godess Band</option>
+                            <option value="Rock Sea Bead Gem Bracelet">Rock Sea Bead Gem Bracelet</option>
+                            <option value="Studs">Studs</option>
+
+                            </select>
+                     </div>
+                    
+                        <!-- Product Quantity 2 -->
+                    <div class="col-1 col-lg-1 mb-3 choose-item" id="item-1-quantity">
+                        <label for="product-item-1-quantity" class="form-label Quantity" >Quantity </label>
+                       <input class="form-control" type="number" name="product-item-1-quantity" id="product-item-1-quantity">    
+                    </div>
+                    </div>
+                    
+                     <!-- line break -->
+                     <hr>
+
+
+                                                            <!-- product Selection 4 -->
+                     <div>
+                    <div class="col-10 col-lg-6 mb-3 choose-item" id="item-1-selection">
+
+
+                      <label for="product-item1" class="form-label" >Item </label>
+                       <select lass="form-select" type="text" name="name" id="product-item1">
+                            <option selected value="">Select</option>
+                            <option value="Silver-Wave-Ring">Silver Wave Ring</option>
+                            <option value="Orange-Topaz-Ring">Orange Topaz Ring</option>
+                            <option value="Obsidian Carbon Ring">Obsidian Carbon Ring</option>
+                            <option value="Wicked Fish Keychain">Wicked Fish Keychain</option>
+                            <option value="Butterly free desires Broach">Butterly free desires Broach</option>
+                            <option value="Cry your heart out Ring">Cry your heart out Ring</option>
+                            <option value="Meridian Waves Opal Ring">Meridian Waves Opal Ring</option>
+                            <option value="His & Her Rings">His & Her Rings</option>
+                            <option value="The World is yours Ring">The World is yours Ring</option>
+                            <option value="Opal & Rose Gold Godess Band">Opal & Rose Gold Godess Band</option>
+                            <option value="Rock Sea Bead Gem Bracelet">Rock Sea Bead Gem Bracelet</option>
+                            <option value="Studs">Studs</option>
+
+                            </select>
+                     </div>
+
+                        <!-- Product Quantity 3 -->
+                    <div class="col-1 col-lg-1 mb-3 choose-item" id="item-1-quantity">
+                        <label for="product-item-1-quantity" class="form-label Quantity" >Quantity </label>
+                       <input class="form-control" type="number" name="product-item-1-quantity" id="product-item-1-quantity">    
+                    </div>
+                    </div>
+
+                    <!-- line break -->
+                    <hr>
+                    <!-- product Selection 4 -->
+                     <div>
+                    <div class="col-10 col-lg-6 mb-3 choose-item" id="item-1-selection">
+
+
+                      <label for="product-item1" class="form-label" >Item </label>
+                       <select lass="form-select" type="text" name="name" id="product-item1">
+                            <option selected value="">Select</option>
+                            <option value="Silver-Wave-Ring">Silver Wave Ring</option>
+                            <option value="Orange-Topaz-Ring">Orange Topaz Ring</option>
+                            <option value="Obsidian Carbon Ring">Obsidian Carbon Ring</option>
+                            <option value="Wicked Fish Keychain">Wicked Fish Keychain</option>
+                            <option value="Butterly free desires Broach">Butterly free desires Broach</option>
+                            <option value="Cry your heart out Ring">Cry your heart out Ring</option>
+                            <option value="Meridian Waves Opal Ring">Meridian Waves Opal Ring</option>
+                            <option value="His & Her Rings">His & Her Rings</option>
+                            <option value="The World is yours Ring">The World is yours Ring</option>
+                            <option value="Opal & Rose Gold Godess Band">Opal & Rose Gold Godess Band</option>
+                            <option value="Rock Sea Bead Gem Bracelet">Rock Sea Bead Gem Bracelet</option>
+                            <option value="Studs">Studs</option>
+
+                            </select>
+                     </div>
+
+                        <!-- Product Quantity 4 -->
+                    <div class="col-1 col-lg-1 mb-3 choose-item" id="item-1-quantity">
+                        <label for="product-item-1-quantity" class="form-label Quantity" >Quantity </label>
+                       <input class="form-control" type="number" name="product-item-1-quantity" id="product-item-1-quantity">    
+                    </div>
+                    </div>
+
+                    <!-- line break -->
+                     <hr>
+
+                    <!-- product Selection 5 -->
+                     <div>
+                    <div class="col-10 col-lg-6 mb-3 choose-item" id="item-1-selection">
+
+
+                      <label for="product-item1" class="form-label" >Item </label>
+                       <select lass="form-select" type="text" name="name" id="product-item1">
+                            <option selected value="">Select</option>
+                            <option value="Silver-Wave-Ring">Silver Wave Ring</option>
+                            <option value="Orange-Topaz-Ring">Orange Topaz Ring</option>
+                            <option value="Obsidian Carbon Ring">Obsidian Carbon Ring</option>
+                            <option value="Wicked Fish Keychain">Wicked Fish Keychain</option>
+                            <option value="Butterly free desires Broach">Butterly free desires Broach</option>
+                            <option value="Cry your heart out Ring">Cry your heart out Ring</option>
+                            <option value="Meridian Waves Opal Ring">Meridian Waves Opal Ring</option>
+                            <option value="His & Her Rings">His & Her Rings</option>
+                            <option value="The World is yours Ring">The World is yours Ring</option>
+                            <option value="Opal & Rose Gold Godess Band">Opal & Rose Gold Godess Band</option>
+                            <option value="Rock Sea Bead Gem Bracelet">Rock Sea Bead Gem Bracelet</option>
+                            <option value="Studs">Studs</option>
+
+                            </select>
+                     </div>
+
+                        <!-- Product Quantity 5 -->
+                    <div class="col-1 col-lg-1 mb-3 choose-item" id="item-1-quantity">
+                        <label for="product-item-1-quantity" class="form-label Quantity" >Quantity </label>
+                       <input class="form-control" type="number" name="product-item-1-quantity" id="product-item-1-quantity">    
+                    </div>
+                    </div>
+                    <hr>
+
+
+                        <!-- Message box entry -->
+                    <div class="col-6 mb-3 my-4">
+                      <label for="message" class="form-label" >Message</label>
+                       <input class="form-control" rows="6" type="text" name="message" id="message"> 
+                    </div>
 
                 </div>
 
-               
-
-
-
-
-
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
 
             </form>
+            </div>
         </section>
 
     </main>
