@@ -387,6 +387,17 @@ align-content: center;
 }
 
 
+  .about-us-information {
+  background-image: url(../images/gallery-pictures/morefun_boy-woman-sea-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex ;
+  height: 50vh;
+  width: auto;
+  
+  }
+
+
 /* .carousel-spacing  {
   min-height: 636px;
 
@@ -411,8 +422,15 @@ align-content: center;
   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (-width: 768px) {
 
+  #about-us-information {
+  background-image: url(../images/gallery-pictures/morefun_boy-woman-sea-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+
+  }
 
   
 }
