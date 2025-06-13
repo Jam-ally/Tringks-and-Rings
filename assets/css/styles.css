@@ -56,20 +56,6 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-/* .container, 
-.row {
-  border: 2px solid black;
-}
-
-.col-12{
-  border: 2px white solid;
-  background-color: lightgray;
-}
-
-.col-6{ 
-  border: 2px white solid;
-  background-color: azure;
-} */
 
 h1, h2, h3, h4, p {
   font-family: var(--secondary-font);
@@ -182,19 +168,10 @@ main{
 }
 
 
-/* .page-icon {
-    
-    position: absolute;
-    left: 90%;
-    top: 10px;
-
-} */
-
 /* Footer */
 
 footer {
     background-color: lightseagreen;
-    /* height: 100px; */
     
 }
 
@@ -211,15 +188,6 @@ footer>section{
   width: 200px;
   
 }
-
-/* .footer-item {
-  border: 2px solid black ;
-}
-
-.container {
-  border: 2px solid black ;
-} */
-/* Social Links */
 
 .social-links {
   margin-right: 2px;
@@ -251,29 +219,11 @@ footer>section{
 /* --- About us page styles --- */
 
 
-/* #about-us{
-display: flex;
-border: 10px solid black;
-
-} */
-
-
 #about-us-background {
   background-image: url(../images/gallery-pictures/dwayne-joe-man-hands-with-ring-unsplash.jpg);
   background-size: contain;
   min-height: 50vh;
 }
-
-
-/* #about-us{
-    background-image: url(../images/jay-soundo-WadmDYk2Gvo-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 20%;
-    justify-content:baseline;
-     
-
-} */
 
 #about-us {
   
@@ -293,7 +243,7 @@ border: 10px solid black;
 
 
 .contact-us-header {
-  /* position: relative; */
+
   background-color:  #F6D5AE;
   
   
@@ -325,7 +275,7 @@ border: 10px solid black;
 
 .contact-us-full-detail {
   display: none;
-  /* position:absolute; */
+ 
 }
 
 .dropdown-custom:hover  #contact-us-header-text  {
@@ -342,10 +292,6 @@ border: 10px solid black;
   left: 50%;
   
 }
-
-/* .contact-us-main::checkmark .contact-us-full-detail {
-  display:block
-} */
 
 /*--- Gallery page Styles --- */
 
@@ -398,15 +344,6 @@ align-content: center;
   }
 
 
-/* .carousel-spacing  {
-  min-height: 636px;
-
-}
-
-.carousel-spacing img {
-  align-content: center;
-
-} */
 /* Media Querries */
 
 @media screen and (max-width: 556px) {
@@ -432,5 +369,5 @@ align-content: center;
 
   }
 
-  
+
 }
