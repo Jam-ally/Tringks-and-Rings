@@ -91,26 +91,21 @@ p {
 
 /* Navigation bar */
 #navbar {
-  background-color: #a795fb;
+  background-color: var(--highlight-color-light);
   font-family: var(--primary-font);
   font-weight: 700;
   color: black;
   font-size: 110%;
 }
 
-
-/* header {
-    background-color: lightcyan;
-    height: 50px;
-    padding: 0 .5rem;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    
-} */
+/* News bar */
+.news-bar {
+  display: flex;
+   background-color: var(--highlight-color);
+ font-family: var(--primary-font);
+ font-style: oblique;
+ text-indent: 4em;
+}
 
 
 /* Header */
@@ -141,8 +136,7 @@ main{
 
 
 #logo{
-    
-    /* position:fixed; */
+     
     display: inline-block;
     flex-basis: 100px;
     
@@ -150,7 +144,7 @@ main{
     flex-grow: 1;
    
     height: fit-content;
-    /* background-color: lightslategray; */
+
     color: var(--secondary-color);
     text-size-adjust: 110%;
     font-weight: 700;
@@ -161,16 +155,10 @@ main{
 /* Product Section */
 
 .product-list {
-  border: 2px solid black;
+  border: 5px solid var(--highlight-color-light);
   font-family: var(--primary-font);
-
+  border-radius: 3%;
 }
-
-/* .product-list .card .card-img-top1 {
-  border: 2px solid red;
-  flex-grow: calc();
-  
-} */
 
 .product-price {
   text-transform: uppercase;
@@ -190,7 +178,7 @@ main{
 }
 
 .product-card {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -224,6 +212,13 @@ footer>section{
   
 }
 
+/* .footer-item {
+  border: 2px solid black ;
+}
+
+.container {
+  border: 2px solid black ;
+} */
 /* Social Links */
 
 .social-links {
@@ -296,6 +291,24 @@ border: 10px solid black;
   margin-left: 5%;
 }
 
+
+.contact-us-header {
+  /* position: relative; */
+  background-color:  #F6D5AE;
+  
+  
+}
+
+#contact-us-header-text {
+  margin-left: 5%;
+  align-content: center; 
+}
+
+#about-us-text {
+  margin-left: 5%;
+  text-indent: 2vw;
+}
+
 #contact-us {
   min-height: 40vh 
 }
@@ -340,12 +353,15 @@ border: 10px solid black;
  
 display: flex;
 flex-wrap: wrap;
+align-content: center;
 
 
 }
 #gallery-wall img {
   width: 350px;
   height: fit-content;
+  padding: 2%;
+  
 }
 
 /* Order form styles */
@@ -370,6 +386,16 @@ flex-wrap: wrap;
   ;
 }
 
+
+/* .carousel-spacing  {
+  min-height: 636px;
+
+}
+
+.carousel-spacing img {
+  align-content: center;
+
+} */
 /* Media Querries */
 
 @media screen and (max-width: 556px) {
