@@ -57,7 +57,7 @@
   margin-bottom: 2rem;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4 {
   font-family: var(--secondary-font);
   color: var(--secondary-color);
   text-transform: uppercase;
@@ -245,6 +245,7 @@ footer>section{
 .contact-us-header {
 
   background-color:  #F6D5AE;
+  width: 100%;
   
   
 }
@@ -252,6 +253,7 @@ footer>section{
 #contact-us-header-text {
   margin-left: 5%;
   align-content: center; 
+  
 }
 
 #about-us-text {
@@ -270,6 +272,15 @@ footer>section{
 .contact-us-background {
   background-image: url(../images/tringks-and-rings-logo-transparent.png) ;
   background-size: contain;
+  
+}
+
+.contact-ring { 
+  font-size:  200%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  color: var(--alt-color);
   
 }
 
