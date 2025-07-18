@@ -354,6 +354,13 @@ align-content: center;
   
   }
 
+/* README.md */
+
+.future-note {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* Media Querries */
 
