@@ -3,9 +3,8 @@
 /* Font Style  */
 
 /* Directly from Google Fonts */
-.archivo-narrow- bold {
+.archivo-narrow-bold {
   font-family: "Archivo Narrow", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
@@ -35,7 +34,7 @@
 /* CSS Variables */
 *{
   /* to clear any default browser styles */
-  color: 0;
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
